@@ -1,0 +1,27 @@
+.container {
+    @apply flex flex-col items-center;
+}
+
+.profile {
+    @apply w-1/5;
+}
+
+.profile > img {
+    @apply rounded-full;
+}
+
+.name {
+    @apply mt-8 text-4xl font-bold;
+
+    color: #45505b;
+}
+
+.desc {
+    @apply mt-4;
+
+    color: #272829
+}
+
+.colored {
+    color: #0563bb;
+}
