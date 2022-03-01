@@ -1,0 +1,38 @@
+.header {
+    @apply h-14 pl-4 pr-4;
+    @apply fixed top-0 right-0 left-0;
+
+    @apply flex;
+
+    color: var(--light-blue);
+    z-index: 1001;
+    
+    border-bottom: solid 1px var(--light-blue-0_1);
+}
+
+.container {
+    flex: 1;
+    @apply flex justify-between items-center;
+    @apply mx-auto;
+    max-width: var(--max-width);
+}
+
+.navLinks {
+    @apply flex justify-center items-center;
+}
+
+.iconLink {
+    @apply cursor-pointer p-2 ml-2 opacity-60;
+}
+
+.iconLink:hover {
+    @apply opacity-100;
+}
+
+.textLink {
+    @apply cursor-pointer p-2 mr-10 text-xs;
+}
+
+.textLink:hover {
+    color: var(--accent-green);
+}

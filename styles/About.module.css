@@ -1,0 +1,39 @@
+.aboutSection {
+    /* Nothing */
+}
+
+.wrapper {
+    flex: 1;
+    max-width: var(--max-width);
+
+    @apply flex flex-col;
+    @apply pt-32;
+}
+
+.content {
+    flex: 1;
+    @apply flex;
+    @apply mt-4;
+}
+
+.leftSide {
+    flex: 1;
+}
+
+.rightSide {
+    flex: 1;
+    @apply flex flex-col;
+}
+
+.rightSide > p {
+    @apply mb-5;
+}
+
+.techLogo {
+    @apply flex justify-start items-center;
+}
+
+.techLogo > span {
+    width: 2rem;
+    @apply mr-2;
+}

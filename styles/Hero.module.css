@@ -1,0 +1,56 @@
+.heroSection {
+    background-image: linear-gradient(180deg, var(--background-blue), #ffffff);
+}
+
+.leftPart {
+    @apply pt-32;
+    width: 60%;
+}
+
+.rightPart {
+    width: 40%;
+}
+
+.rightPart > svg {
+    width: 100%;
+    height: auto;
+}
+
+.textContainer {
+
+    padding-top: 4.5rem;
+}
+
+.textContainer > h2 {
+    @apply font-medium mb-8;
+    
+    max-width: 15ch;
+    font-size: 3.25rem;
+    line-height: 1.2;
+    color: var(--light-blue);
+}
+
+.contactButton {
+    @apply flex justify-between items-center;
+    @apply mt-8 py-4 px-8;
+    @apply rounded-full;
+    
+    background-color: var(--accent-green);
+    color: #ffffff;
+}
+
+.contactButton > i {
+    @apply pl-0 ease-out duration-300;
+}
+
+.contactButton > p {
+    @apply pr-3;
+}
+
+.contactButton:hover {
+    background-color: var(--light-blue);
+}
+
+.contactButton:hover > i {
+    @apply pl-4 ease-out duration-300;
+}

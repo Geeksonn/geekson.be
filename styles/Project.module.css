@@ -1,0 +1,36 @@
+.projectSection {
+    @apply pt-32;
+
+    z-index: 50;
+}
+
+.leftPart, .rightPart {
+    @apply pt-32;
+}
+
+.leftPart {
+    width: 50%;
+}
+
+.wrapper {
+    @apply flex justify-between items-stretch;
+    width: var(--max-width);
+    max-width: var(--max-width);
+}
+
+.column {
+    @apply flex flex-col justify-start items-start;
+    max-width: 37rem;
+}
+
+.sectionDescription {
+    @apply my-4 text-3xl font-normal ;
+}
+
+.short {
+    max-width: 18rem;
+}
+
+.spaceAfter {
+    @apply mb-24;
+}

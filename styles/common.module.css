@@ -1,0 +1,9 @@
+.sectionTitle {
+    @apply uppercase tracking-widest text-xs;
+    color: var(--accent-green);
+}
+
+.container {
+    @apply flex justify-between;
+    max-width: var(--max-width);
+}

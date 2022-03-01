@@ -1,6 +1,0 @@
-.navbar {
-    @apply fixed top-0 left-0 bottom-0 z-50;
-    @apply p-4;
-    @apply overflow-y-auto;
-    @apply flex flex-col justify-center
-}
