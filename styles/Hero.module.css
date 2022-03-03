@@ -21,8 +21,16 @@
     padding-top: 4.5rem;
 }
 
+.services {
+    font-family: 'Source Code Pro';
+    font-style: italic;
+    text-align: right;
+    margin-bottom: 2rem;
+    color: var(--accent-green);
+}
+
 .textContainer > h2 {
-    @apply font-medium mb-8;
+    @apply font-medium;
     
     max-width: 15ch;
     font-size: 3.25rem;

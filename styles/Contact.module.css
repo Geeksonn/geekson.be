@@ -4,70 +4,23 @@
 
 .wrapper {
     flex: 1;
-    max-width: var(--max-width);
+    max-width: calc(var(--max-width) * 0.5);
 
-    @apply flex flex-col;
+    @apply flex flex-col mx-auto text-center;
 }
 
-.feedback {
-    --width: 20rem;
-    @apply fixed px-3 py-2;
-    width: var(--width);
-    top: 58px;
-    text-align: center;
-    opacity: 0.8;
-}
-
-.success {
-    color: #0f5132;
-    background-color: #d1e7dd;
-    @apply border rounded-md;
-    border-color: #badbcc;
-}
-
-.error {
-    color: #842029;
-    background-color: #f8d7da;
-    @apply border rounded-md;
-    border-color: #f5c2c7;
-}
-
-.contactForm {
-    flex: 1;
-    @apply flex flex-col justify-start mt-5;
-    max-width: calc(var(--max-width) / 2);
-}
-
-.contactForm label {
-    @apply mt-5 mb-2;
-}
-
-.contactForm input,
-.contactForm textarea {
-    @apply border border-gray-400 rounded-md;
-    @apply px-3 py-2;
-}
-
-.contactForm input {
-    @apply max-w-md;
-}
-
-.contactForm textarea {
-    @apply h-32;
+.description {
+    @apply mt-8;
 }
 
 .contactButton {
     max-width: fit-content;
     @apply flex justify-between items-center;
-    @apply mt-8 py-4 px-8;
+    @apply mt-8 py-4 px-8 mx-auto;
     @apply rounded-full;
     
     background-color: var(--accent-green);
     color: #ffffff;
-}
-
-.contactButton > i {
-    @apply pl-0 ease-out duration-300;
 }
 
 .contactButton > p {
@@ -76,8 +29,4 @@
 
 .contactButton:hover {
     background-color: var(--light-blue);
-}
-
-.contactButton:hover > i {
-    @apply pl-4 ease-out duration-300;
 }

@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 import styles from '../styles/Header.module.css';
 import { githubIcon, discordIcon, linkedInIcon } from './icons';
-import GeeksonLogo from './geeksonLogo';
+import Image from 'next/image';
 
 const Header = () => {
     useEffect(() => {
@@ -26,9 +26,7 @@ const Header = () => {
     return (
         <header className={styles.header}>
             <div className={styles.container}>
-                <div>
-                    <GeeksonLogo />
-                </div>
+                <Image src='/images/logo_header.svg' alt='Geekson Software logo' width={167} height={23} />
                 <nav className={styles.navLinks}>
                     <a className={styles.textLink} href='#Home'>
                         Home
