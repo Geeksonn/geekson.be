@@ -1,0 +1,73 @@
+.section {
+    /* Re-apply when putting back "Projects" section
+    @apply -mt-20 pt-40 pb-20;
+    */
+    @apply mt-20 pt-20 pb-20;
+    background-color: var(--bg-dark);
+}
+
+.section p {
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+.wrapper {
+    flex: 1;
+    max-width: var(--max-width);
+
+    @apply flex flex-col;
+}
+
+.twoColumn {
+    flex: 1;
+    @apply flex;
+}
+
+.subTitle {
+    color: #ffffff;
+    @apply text-2xl font-semibold pt-4;
+}
+
+.description {
+    @apply pt-4;
+}
+
+.tabs {
+    flex: 1;
+    @apply pt-14;
+}
+
+.tabNav {
+    @apply flex justify-around items-center;
+}
+
+.tabNav div {
+    flex: 1;
+    @apply text-center cursor-pointer;
+}
+
+.tabItem {
+    @apply pb-2;
+    border-bottom-width: 1px;
+    border-bottom-color: var(--tab-border-blue);
+}
+
+.tabItem:hover,
+.tabActive {
+    border-bottom-width: 1px;
+    border-bottom-color: var(--tab-border-active);
+}
+
+.tabActive p {
+    opacity: 1;
+}
+
+.content {
+    @apply p-8;
+}
+
+.contentTitle {
+    color: var(--accent-green)!important;
+    opacity: 1!important;
+    @apply mb-4 font-semibold text-xl;
+}

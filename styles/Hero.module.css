@@ -3,8 +3,18 @@
 }
 
 .leftPart {
-    @apply pt-32;
+    @apply pt-44;
     width: 60%;
+}
+
+.leftPart h2 {
+    @apply font-medium text-5xl leading-relaxed;
+    
+    color: var(--light-blue);
+}
+
+.leftPart > p {
+    @apply mt-6;
 }
 
 .rightPart {
@@ -16,31 +26,9 @@
     height: auto;
 }
 
-.textContainer {
-
-    padding-top: 4.5rem;
-}
-
-.services {
-    font-family: 'Source Code Pro';
-    font-style: italic;
-    text-align: right;
-    margin-bottom: 2rem;
-    color: var(--accent-green);
-}
-
-.textContainer > h2 {
-    @apply font-medium;
-    
-    max-width: 15ch;
-    font-size: 3.25rem;
-    line-height: 1.2;
-    color: var(--light-blue);
-}
-
 .contactButton {
     @apply flex justify-between items-center;
-    @apply mt-8 py-4 px-8;
+    @apply mt-20 mb-10 py-5 px-10;
     @apply rounded-full;
     
     background-color: var(--accent-green);
@@ -52,7 +40,7 @@
 }
 
 .contactButton > p {
-    @apply pr-3;
+    @apply pr-6;
 }
 
 .contactButton:hover {
@@ -60,5 +48,5 @@
 }
 
 .contactButton:hover > i {
-    @apply pl-4 ease-out duration-300;
+    @apply pl-6 ease-out duration-300;
 }

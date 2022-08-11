@@ -1,0 +1,36 @@
+.wrapper {
+    @apply my-12 flex flex-col;
+}
+
+.firstRow, .secondRow {
+    @apply flex justify-center gap-5;
+}
+
+.firstRow {
+    /*animation: scroll 10s linear infinite;*/
+}
+
+.secondRow {
+    /*animation: scrollLeft 10s linear infinite;*/
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(var(--skill-badge-size) * -5));
+    }
+}
+
+@keyframes scrollLeft {
+    0% {
+        /*transform: translateX(calc(-250px * 7));*/
+        transform: translateX(calc(var(--skill-badge-size) * -5));
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}

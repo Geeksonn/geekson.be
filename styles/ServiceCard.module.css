@@ -1,0 +1,18 @@
+.card, .noBorderCard {
+    @apply p-6 mb-10;
+    width: 30vw;
+}
+.card {
+    @apply border-r;
+    border-color: var(--tab-border-blue);
+}
+
+.title {
+    @apply font-semibold text-xl opacity-70 text-center my-2;
+    color: var(--accent-green);
+}
+
+.description {
+    @apply text-white opacity-70;
+    
+}

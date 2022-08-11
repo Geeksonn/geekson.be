@@ -1,0 +1,5 @@
+.badge {
+    @apply m-4 py-4 px-8 rounded-full  text-center;
+    box-shadow: 0 0 80px #0C1C3633;
+    /*width: var(--skill-badge-size);*/
+}

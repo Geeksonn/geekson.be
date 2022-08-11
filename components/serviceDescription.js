@@ -1,7 +1,8 @@
 const ServiceDescription = {
     website: {
         id: 'svc-website',
-        title: 'Give your visibility a great boost !',
+        title: 'Website',
+        subTitle: 'Give your visibility a great boost !',
         desc: (
             <p>
                 You wish to improve your online visibility ? <br />
@@ -14,7 +15,8 @@ const ServiceDescription = {
     },
     webapp: {
         id: 'svc-webapp',
-        title: 'Ease your day-to-day work.',
+        title: 'Web Application',
+        subTitle: 'Ease your day-to-day work.',
         desc: (
             <p>
                 In these modern times, we all need to focus on our core business. No time to loose with complex
@@ -27,7 +29,8 @@ const ServiceDescription = {
     },
     mobapp: {
         id: 'svc-mobapp',
-        title: "Your idea in the people's pocket.",
+        title: 'Mobile Application',
+        subTitle: "Your idea in the people's pocket.",
         desc: (
             <p>
                 You have an idea of a mobile application but do not have the skill to develop it ? <br />
@@ -38,7 +41,8 @@ const ServiceDescription = {
     },
     hosting: {
         id: 'svc-hosting',
-        title: 'Focus on your business. Not on the IT.',
+        title: 'Hosting',
+        subTitle: 'Focus on your business. Not on the IT.',
         desc: (
             <p>
                 You are running a business that requires several IT applications ? Databases, APIs, ... <br />
@@ -50,7 +54,8 @@ const ServiceDescription = {
     },
     consulting: {
         id: 'svc-consulting',
-        title: 'You need IT consulting ? Search no more.',
+        title: 'Consulting',
+        subTitle: 'You need IT consulting ? Search no more.',
         desc: (
             <p>
                 With my 10+ years of experience in the IT world and my apetite for technologies <br />

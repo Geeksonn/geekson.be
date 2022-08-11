@@ -26,6 +26,7 @@ body {
     --bg-dark: #0C1C36;
     --tab-border-blue: #283971;
     --tab-border-active: #7FBFB3;
+    --skill-badge-size: 200px;
 
     /* Sizes */
     --max-width: 74rem;
