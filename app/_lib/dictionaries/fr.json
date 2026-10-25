@@ -93,7 +93,7 @@
         ],
         "role": "Ingénieur full-stack · Geekson Software",
         "facts": [
-            { "label": "Basé en", "value": "Belgique · [ville]" },
+            { "label": "Basé en", "value": "Meise, Belgique" },
             { "label": "Expérience", "value": "10+ ans dans le logiciel" },
             { "label": "Langues", "value": "FR · NL · EN" },
             { "label": "Mode", "value": "Au projet, pas en régie" }
@@ -127,6 +127,6 @@
         "intro": "Racontez-moi tout. Je réponds sous 1 à 2 jours ouvrables."
     },
     "footer": {
-        "company": "[N° d'entreprise BCE] · Belgique"
+        "company": "N° d'entreprise 0771.810.786 · Meise, Belgique"
     }
 }
