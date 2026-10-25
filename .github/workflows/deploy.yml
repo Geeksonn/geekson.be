@@ -2,7 +2,7 @@ name: Deploy to OVH
 
 on:
     push:
-        branches: [main, redesign] # TEMP: redesign only runs a dry-run, remove once the FTP connection is validated
+        branches: [main]
     workflow_dispatch:
 
 concurrency:

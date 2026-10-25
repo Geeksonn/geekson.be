@@ -24,5 +24,6 @@ picks one with the header button (saved in `localStorage`).
 
 ## Deployment
 
-Every push on `main` builds the site and uploads `out/` to the OVH hosting (`www/`) over FTPS
-(`.github/workflows/deploy.yml`). Required repository secrets: `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD`.
+Every push on `main` builds the site and uploads `out/` to the OVH hosting (`www/`) over SFTP with `lftp`
+(`.github/workflows/deploy.yml`). Running the workflow manually from another branch only performs a dry-run.
+Required repository secrets: `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD`.
