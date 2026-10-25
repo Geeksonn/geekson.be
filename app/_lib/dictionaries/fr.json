@@ -1,0 +1,132 @@
+{
+    "meta": {
+        "title": "Geekson Software — Développeur full-stack indépendant en Belgique",
+        "description": "Sites, applications web et mobiles sur mesure pour les petites entreprises. Au projet, avec un seul interlocuteur : Olivier, ingénieur full-stack avec plus de 10 ans d'expérience."
+    },
+    "nav": {
+        "label": "Navigation principale",
+        "services": "Services",
+        "work": "Réalisations",
+        "method": "Méthode",
+        "cta": "Démarrer un projet",
+        "ctaShort": "Contact",
+        "languages": "Langue",
+        "themeToDark": "Passer en mode sombre",
+        "themeToLight": "Passer en mode clair",
+        "home": "Geekson, retour en haut de page"
+    },
+    "hero": {
+        "badge": "Développeur full-stack indépendant · Belgique",
+        "title": "Des outils web sur mesure pour les petites entreprises.",
+        "intro": "Sites, applications web et mobiles conçus et livrés de A à Z par Olivier, ingénieur avec plus de 10 ans d'expérience. Je travaille au projet : un objectif clair, un résultat livré.",
+        "primary": "Parler de votre projet",
+        "secondary": "Voir les réalisations"
+    },
+    "highlights": [
+        "Pensé pour les petites entreprises",
+        "Au projet, jamais en régie",
+        "Un seul interlocuteur",
+        "Français · Nederlands · English"
+    ],
+    "services": {
+        "eyebrow": "Services",
+        "title": "Ce que je peux construire pour vous",
+        "aside": "Une demande qui ne rentre dans aucune case ? Écrivez-moi quand même, on trouvera une solution.",
+        "items": [
+            {
+                "title": "Site vitrine",
+                "description": "Un site rapide et clair qui explique votre activité, rassure vos visiteurs et les pousse à vous contacter."
+            },
+            {
+                "title": "Application web",
+                "description": "Fini les fichiers Excel éparpillés : vos données centralisées et vos processus simplifiés dans un outil pensé pour votre métier."
+            },
+            {
+                "title": "Application mobile",
+                "description": "Votre idée dans la poche de vos clients, sur iOS et Android, de la maquette à la publication sur les stores."
+            },
+            {
+                "title": "Hébergement & maintenance",
+                "description": "Bases de données, API, serveurs : je m'occupe de l'infrastructure pour que vous restiez concentré sur votre activité."
+            },
+            {
+                "title": "Conseil IT",
+                "description": "Un regard expérimenté sur votre architecture ou vos choix technologiques, avant d'investir."
+            }
+        ]
+    },
+    "work": {
+        "eyebrow": "Réalisation",
+        "title": "Tout un écosystème pour La Brassicole",
+        "featured": {
+            "kind": "Application mobile · iOS & Android",
+            "name": "Appicole",
+            "description": "L'application de La Brassicole, un événement annuel dédié à la bière artisanale. Les participants y consultent la carte, notent et sauvegardent leurs bières, suivent des routes de dégustation et collectionnent des badges d'une édition à l'autre.",
+            "imageAlt": "Deux écrans de l'application Appicole : les badges obtenus et le compte à rebours avant la prochaine édition",
+            "features": ["Carte & notes", "Recommandations", "Badges", "Planning", "Jeux"]
+        },
+        "ecosystem": [
+            {
+                "audience": "Pour les participants",
+                "name": "Appicole",
+                "description": "L'app mobile, compagnon de chaque édition."
+            },
+            {
+                "audience": "Pour l'équipe",
+                "name": "Brassicole Order",
+                "description": "L'application web de prise de commande sur place."
+            },
+            {
+                "audience": "Pendant l'événement",
+                "name": "Brassicole Stats",
+                "description": "Le tableau de bord en temps réel : classement, indicateurs, graphiques."
+            }
+        ],
+        "note": "Trois outils, une seule base de données : tout est synchronisé, des commandes jusqu'au classement."
+    },
+    "about": {
+        "eyebrow": "À propos",
+        "title": "Bonjour, moi c'est Olivier.",
+        "paragraphs": [
+            "Ingénieur full-stack, passionné de technologie, mari et papa. Plus de 10 ans dans le logiciel m'ont fait toucher à tout : conception, story mapping, développement, livraison et support client.",
+            "J'adore apprendre de nouvelles technologies, et aucun défi ne me fait peur."
+        ],
+        "role": "Ingénieur full-stack · Geekson Software",
+        "facts": [
+            { "label": "Basé en", "value": "Belgique · [ville]" },
+            { "label": "Expérience", "value": "10+ ans dans le logiciel" },
+            { "label": "Langues", "value": "FR · NL · EN" },
+            { "label": "Mode", "value": "Au projet, pas en régie" }
+        ]
+    },
+    "method": {
+        "eyebrow": "Méthode",
+        "title": "Au projet, pas en régie",
+        "intro": "Je ne suis pas un développeur mis à disposition. On définit ensemble un objectif, un périmètre et un planning, et je livre un résultat.",
+        "steps": [
+            {
+                "title": "On discute",
+                "description": "Un appel ou un café pour comprendre votre besoin et vos contraintes."
+            },
+            {
+                "title": "Je propose",
+                "description": "Un périmètre écrit, un planning et un devis. Vous savez à quoi vous attendre."
+            },
+            {
+                "title": "Je construis",
+                "description": "Des démos régulières : vous voyez le projet avancer et vous l'orientez."
+            },
+            {
+                "title": "On lance",
+                "description": "Mise en ligne, prise en main, puis suivi et maintenance si vous le souhaitez."
+            }
+        ]
+    },
+    "contact": {
+        "title": "Un projet en tête ?",
+        "intro": "Racontez-moi tout. Je réponds sous 1 à 2 jours ouvrables."
+    },
+    "footer": {
+        "company": "[N° d'entreprise BCE] · Belgique"
+    }
+}

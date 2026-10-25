@@ -1,0 +1,82 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+/* Colors are CSS variables so the light/dark switch only swaps values, never class names. */
+@theme inline {
+    --font-body: var(--font-jakarta), system-ui, sans-serif;
+    --font-title: var(--font-bricolage), system-ui, sans-serif;
+
+    --color-bg: var(--bg);
+    --color-alt: var(--alt);
+    --color-surface: var(--surface);
+    --color-line: var(--line);
+    --color-ink: var(--ink);
+    --color-body: var(--body);
+    --color-muted: var(--muted);
+    --color-teal: var(--teal);
+    --color-accent: var(--accent);
+    --color-chip: var(--chip);
+    --color-placeholder: var(--placeholder);
+    --color-bar: var(--bar);
+    --color-outline: var(--outline);
+    --color-btn: var(--btn);
+    --color-btn-ink: var(--btn-ink);
+    --color-logo: var(--logo);
+    --color-cta: var(--cta);
+    --color-cta-line: var(--cta-line);
+}
+
+:root {
+    --bg: #f7f8fb;
+    --alt: #ffffff;
+    --surface: #ffffff;
+    --line: #dfe4ee;
+    --ink: #092c63;
+    --body: #3b4a66;
+    --muted: #5a6782;
+    --teal: #1d7566;
+    --accent: #5db5a3;
+    --chip: #e8f5f2;
+    --placeholder: #edf0f6;
+    --bar: #c9d1e0;
+    --outline: #c9d1e0;
+    --btn: #092c63;
+    --btn-ink: #ffffff;
+    --logo: #092c63;
+    --cta: #092c63;
+    --cta-line: #092c63;
+    color-scheme: light;
+}
+
+[data-theme='dark'] {
+    --bg: #0b1526;
+    --alt: #0f1c31;
+    --surface: #13223b;
+    --line: #22324f;
+    --ink: #eef2f8;
+    --body: #a9b6cc;
+    --muted: #8d9bb5;
+    --teal: #6ac1b3;
+    --accent: #6ac1b3;
+    --chip: #12332f;
+    --placeholder: #1a2a45;
+    --bar: #2f4266;
+    --outline: #2f4266;
+    --btn: #eef2f8;
+    --btn-ink: #092c63;
+    --logo: #1a2a45;
+    --cta: #13223b;
+    --cta-line: #2f4266;
+    color-scheme: dark;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* Keep anchored sections clear of the sticky header. */
+    scroll-padding-top: 5rem;
+}
+
+body {
+    @apply bg-bg font-body text-body text-[17px] leading-relaxed antialiased;
+}
