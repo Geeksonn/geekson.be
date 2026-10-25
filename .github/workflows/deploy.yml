@@ -24,14 +24,22 @@ jobs:
 
             - run: npm run build
 
-            # Uploads only the files that changed since the previous deploy (tracked in a state file on the server).
+            - run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+
+            # OVH web hosting does not support FTPS, so files go over SFTP. Old files on the server are kept (no --delete).
+            # Outside main, only list the remote folder and print what would be uploaded.
             - name: Upload to OVH
-              uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-              with:
-                  server: ${{ secrets.FTP_SERVER }}
-                  username: ${{ secrets.FTP_USERNAME }}
-                  password: ${{ secrets.FTP_PASSWORD }}
-                  protocol: ftps
-                  local-dir: ./out/
-                  server-dir: ./www/
-                  dry-run: ${{ github.ref != 'refs/heads/main' }}
+              env:
+                  FTP_SERVER: ${{ secrets.FTP_SERVER }}
+                  FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+                  LFTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+                  DRY_RUN: ${{ github.ref != 'refs/heads/main' && '--dry-run' || '' }}
+              run: |
+                  lftp -c "
+                      set sftp:auto-confirm yes
+                      set net:max-retries 2
+                      set net:timeout 20
+                      open --env-password -u \"$FTP_USERNAME\" sftp://$FTP_SERVER
+                      cls -1 www/
+                      mirror --reverse --verbose $DRY_RUN ./out/ www/
+                  "
