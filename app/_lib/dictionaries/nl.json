@@ -1,0 +1,132 @@
+{
+    "meta": {
+        "title": "Geekson Software — Freelance full-stack developer in België",
+        "description": "Websites, web- en mobiele apps op maat voor kleine bedrijven. Per project, met één aanspreekpunt: Olivier, full-stack engineer met meer dan 10 jaar ervaring."
+    },
+    "nav": {
+        "label": "Hoofdnavigatie",
+        "services": "Diensten",
+        "work": "Realisaties",
+        "method": "Aanpak",
+        "cta": "Start een project",
+        "ctaShort": "Contact",
+        "languages": "Taal",
+        "themeToDark": "Donkere modus inschakelen",
+        "themeToLight": "Lichte modus inschakelen",
+        "home": "Geekson, terug naar boven"
+    },
+    "hero": {
+        "badge": "Freelance full-stack developer · België",
+        "title": "Digitale tools op maat voor kleine bedrijven.",
+        "intro": "Websites, web- en mobiele apps, van A tot Z ontworpen en opgeleverd door Olivier, engineer met meer dan 10 jaar ervaring. Ik werk per project: een duidelijk doel, een opgeleverd resultaat.",
+        "primary": "Bespreek je project",
+        "secondary": "Bekijk realisaties"
+    },
+    "highlights": [
+        "Gemaakt voor kleine bedrijven",
+        "Per project, nooit detachering",
+        "Eén aanspreekpunt",
+        "Français · Nederlands · English"
+    ],
+    "services": {
+        "eyebrow": "Diensten",
+        "title": "Wat ik voor je kan bouwen",
+        "aside": "Past je vraag in geen enkel vakje? Stuur me toch een bericht, we vinden wel een oplossing.",
+        "items": [
+            {
+                "title": "Bedrijfswebsite",
+                "description": "Een snelle, heldere website die je activiteit uitlegt, bezoekers geruststelt en hen aanzet om contact op te nemen."
+            },
+            {
+                "title": "Webapplicatie",
+                "description": "Gedaan met verspreide Excel-bestanden: je gegevens centraal en je processen eenvoudiger, in een tool op maat van je vak."
+            },
+            {
+                "title": "Mobiele app",
+                "description": "Jouw idee in de broekzak van je klanten, op iOS en Android, van ontwerp tot publicatie in de stores."
+            },
+            {
+                "title": "Hosting & onderhoud",
+                "description": "Databases, API's, servers: ik zorg voor de infrastructuur, zodat jij je op je zaak kunt concentreren."
+            },
+            {
+                "title": "IT-advies",
+                "description": "Een ervaren blik op je architectuur of technologische keuzes, nog voor je investeert."
+            }
+        ]
+    },
+    "work": {
+        "eyebrow": "Realisatie",
+        "title": "Een volledig ecosysteem voor La Brassicole",
+        "featured": {
+            "kind": "Mobiele app · iOS & Android",
+            "name": "Appicole",
+            "description": "De app van La Brassicole, een jaarlijks evenement rond artisanaal bier. Deelnemers bekijken er de bierkaart, geven hun bieren een score, bewaren hun favorieten, volgen proefroutes en verzamelen badges van editie tot editie.",
+            "imageAlt": "Twee schermen van de Appicole-app: de behaalde badges en het aftellen tot de volgende editie",
+            "features": ["Bierkaart & scores", "Aanbevelingen", "Badges", "Planning", "Spelletjes"]
+        },
+        "ecosystem": [
+            {
+                "audience": "Voor de deelnemers",
+                "name": "Appicole",
+                "description": "De mobiele app die elke editie begeleidt."
+            },
+            {
+                "audience": "Voor het team",
+                "name": "Brassicole Order",
+                "description": "De webapplicatie om ter plaatse bestellingen op te nemen."
+            },
+            {
+                "audience": "Tijdens het evenement",
+                "name": "Brassicole Stats",
+                "description": "Het realtime dashboard: rangschikking, indicatoren, grafieken."
+            }
+        ],
+        "note": "Drie tools, één database: alles blijft gesynchroniseerd, van de bestellingen tot de rangschikking."
+    },
+    "about": {
+        "eyebrow": "Over mij",
+        "title": "Hallo, ik ben Olivier.",
+        "paragraphs": [
+            "Full-stack engineer, technologiefan, echtgenoot en papa. In meer dan 10 jaar software heb ik alles gedaan: ontwerp, story mapping, ontwikkeling, oplevering en klantenondersteuning.",
+            "Ik leer graag nieuwe technologieën bij, en geen enkele uitdaging schrikt me af."
+        ],
+        "role": "Full-stack engineer · Geekson Software",
+        "facts": [
+            { "label": "Gevestigd in", "value": "België · [stad]" },
+            { "label": "Ervaring", "value": "10+ jaar in software" },
+            { "label": "Talen", "value": "FR · NL · EN" },
+            { "label": "Werkwijze", "value": "Per project, geen detachering" }
+        ]
+    },
+    "method": {
+        "eyebrow": "Aanpak",
+        "title": "Per project, geen detachering",
+        "intro": "Ik ben geen developer die je inhuurt om in je team mee te draaien. Samen leggen we een doel, een scope en een planning vast, en ik lever een resultaat op.",
+        "steps": [
+            {
+                "title": "We praten",
+                "description": "Een telefoontje of een koffie om je behoeften en beperkingen te begrijpen."
+            },
+            {
+                "title": "Ik stel voor",
+                "description": "Een uitgeschreven scope, een planning en een offerte. Je weet waar je aan toe bent."
+            },
+            {
+                "title": "Ik bouw",
+                "description": "Regelmatige demo's: je ziet het project vorderen en stuurt het bij."
+            },
+            {
+                "title": "We lanceren",
+                "description": "Livegang, uitleg bij de oplevering, en daarna opvolging en onderhoud als je dat wilt."
+            }
+        ]
+    },
+    "contact": {
+        "title": "Een project in gedachten?",
+        "intro": "Vertel me er alles over. Ik antwoord binnen 1 à 2 werkdagen."
+    },
+    "footer": {
+        "company": "[KBO-nummer] · België"
+    }
+}

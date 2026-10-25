@@ -11,6 +11,8 @@ export const defaultLocale: Locale = 'fr';
 
 const dictionaries: Partial<Record<Locale, () => Promise<Dictionary>>> = {
     fr: () => import('./dictionaries/fr.json').then((module) => module.default),
+    nl: () => import('./dictionaries/nl.json').then((module) => module.default),
+    en: () => import('./dictionaries/en.json').then((module) => module.default),
 };
 
 export const availableLocales = locales.filter((locale) => locale in dictionaries);
