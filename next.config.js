@@ -7,6 +7,10 @@ const nextConfig = {
     images: {
         unoptimized: true,
     },
+    experimental: {
+        // The root layout lives under `[lang]`, so the 404 page needs its own document (app/global-not-found.tsx).
+        globalNotFound: true,
+    },
 };
 
 module.exports = nextConfig;

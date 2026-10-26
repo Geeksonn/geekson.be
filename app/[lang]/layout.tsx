@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { Bricolage_Grotesque, Plus_Jakarta_Sans } from 'next/font/google';
 
 import '../globals.css';
-import { availableLocales, getDictionary, hasLocale } from '@/_lib/i18n';
+import { availableLocales, defaultLocale, getDictionary, hasLocale } from '@/_lib/i18n';
 import { siteUrl } from '@/_lib/site';
 
 const bricolage = Bricolage_Grotesque({
@@ -35,7 +35,10 @@ export const generateMetadata = async ({ params }: LayoutProps<'/[lang]'>): Prom
         description: dict.meta.description,
         alternates: {
             canonical: `/${lang}/`,
-            languages: Object.fromEntries(availableLocales.map((locale) => [locale, `/${locale}/`])),
+            languages: {
+                ...Object.fromEntries(availableLocales.map((locale) => [locale, `/${locale}/`])),
+                'x-default': `/${defaultLocale}/`,
+            },
         },
         icons: {
             icon: [
