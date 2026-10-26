@@ -1,0 +1,132 @@
+{
+    "meta": {
+        "title": "Geekson Software — Freelance full-stack developer in Belgium",
+        "description": "Custom websites, web and mobile apps for small businesses. Project-based, with a single point of contact: Olivier, full-stack engineer with over 10 years of experience."
+    },
+    "nav": {
+        "label": "Main navigation",
+        "services": "Services",
+        "work": "Work",
+        "method": "Approach",
+        "cta": "Start a project",
+        "ctaShort": "Contact",
+        "languages": "Language",
+        "themeToDark": "Switch to dark mode",
+        "themeToLight": "Switch to light mode",
+        "home": "Geekson, back to top"
+    },
+    "hero": {
+        "badge": "Freelance full-stack developer · Belgium",
+        "title": "Custom web tools for small businesses.",
+        "intro": "Websites, web and mobile apps, designed and delivered end to end by Olivier, an engineer with over 10 years of experience. I work on a project basis: a clear goal, a delivered result.",
+        "primary": "Talk about your project",
+        "secondary": "See the work"
+    },
+    "highlights": [
+        "Built for small businesses",
+        "Project-based, never staff augmentation",
+        "A single point of contact",
+        "Français · Nederlands · English"
+    ],
+    "services": {
+        "eyebrow": "Services",
+        "title": "What I can build for you",
+        "aside": "Your request doesn't fit any box? Write to me anyway, we'll find a way.",
+        "items": [
+            {
+                "title": "Business website",
+                "description": "A fast, clear website that explains what you do, reassures your visitors and gets them to reach out."
+            },
+            {
+                "title": "Web application",
+                "description": "No more scattered Excel files: your data in one place and simpler processes, in a tool designed around your trade."
+            },
+            {
+                "title": "Mobile app",
+                "description": "Your idea in your customers' pockets, on iOS and Android, from mockup to store release."
+            },
+            {
+                "title": "Hosting & maintenance",
+                "description": "Databases, APIs, servers: I take care of the infrastructure so you can focus on your business."
+            },
+            {
+                "title": "IT consulting",
+                "description": "An experienced look at your architecture or technology choices, before you invest."
+            }
+        ]
+    },
+    "work": {
+        "eyebrow": "Case study",
+        "title": "A whole ecosystem for La Brassicole",
+        "featured": {
+            "kind": "Mobile app · iOS & Android",
+            "name": "Appicole",
+            "description": "The app of La Brassicole, a yearly event dedicated to craft beer. Attendees browse the beer list, rate and save their favourites, follow tasting routes and collect badges from one edition to the next.",
+            "imageAlt": "Two screens of the Appicole app: earned badges and the countdown to the next edition",
+            "features": ["Beer list & ratings", "Recommendations", "Badges", "Schedule", "Games"]
+        },
+        "ecosystem": [
+            {
+                "audience": "For attendees",
+                "name": "Appicole",
+                "description": "The mobile app that comes with every edition."
+            },
+            {
+                "audience": "For the team",
+                "name": "Brassicole Order",
+                "description": "The web app for taking orders on site."
+            },
+            {
+                "audience": "During the event",
+                "name": "Brassicole Stats",
+                "description": "The real-time dashboard: leaderboard, key figures, charts."
+            }
+        ],
+        "note": "Three tools, one database: everything stays in sync, from orders to the leaderboard."
+    },
+    "about": {
+        "eyebrow": "About",
+        "title": "Hi, I'm Olivier.",
+        "paragraphs": [
+            "Full-stack engineer, tech enthusiast, husband and dad. Over 10 years in software have taken me through every stage: design, story mapping, development, delivery and customer support.",
+            "I love learning new technologies, and no challenge scares me."
+        ],
+        "role": "Full-stack engineer · Geekson Software",
+        "facts": [
+            { "label": "Based in", "value": "Meise, Belgium" },
+            { "label": "Experience", "value": "10+ years in software" },
+            { "label": "Languages", "value": "FR · NL · EN" },
+            { "label": "Engagement", "value": "Project-based" }
+        ]
+    },
+    "method": {
+        "eyebrow": "Approach",
+        "title": "Projects, not staffing",
+        "intro": "I'm not a developer you hire to sit in your team. Together we define a goal, a scope and a schedule, and I deliver a result.",
+        "steps": [
+            {
+                "title": "We talk",
+                "description": "A call or a coffee to understand your needs and constraints."
+            },
+            {
+                "title": "I propose",
+                "description": "A written scope, a schedule and a quote. You know what to expect."
+            },
+            {
+                "title": "I build",
+                "description": "Regular demos: you see the project move forward and steer it."
+            },
+            {
+                "title": "We launch",
+                "description": "Go-live, handover, then follow-up and maintenance if you wish."
+            }
+        ]
+    },
+    "contact": {
+        "title": "Got a project in mind?",
+        "intro": "Tell me all about it. I reply within 1 to 2 business days."
+    },
+    "footer": {
+        "company": "Company number 0771.810.786 · Meise, Belgium"
+    }
+}
